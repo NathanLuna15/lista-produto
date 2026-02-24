@@ -9,11 +9,35 @@
 </head>
 <body class= " bg-gray-200 flex flex-col items-center justify-center h-screen gap-4">
     <h1 class="text-2x1">Lista de produto</h1>
+
+<div>
+    <p class=" text-white text-center bg-blue-500 rounded-top-">codigo</p>
     <input 
-        type="text" 
-        class="border px-4 py-2 rounded"
-        id="produto"
+    type="text" 
+    class="border px-4 py-2 rounded"
+    id="codigo"
+>
+</div>    
+ 
+<div>
+    <p class=" text-white text-center bg-blue-500 rounded-top-">produto</p>
+    <input 
+    type="text"
+    class="border px-4 py-2 rounded"
+    id="produto"
     >
+</div>
+    
+<div>
+    <p class=" text-white text-center bg-blue-500 rounded-top-">quantidade</p>
+    <input 
+    type="text"
+    class="border px-4 py-2 rounded"
+    id="quantidade"
+    >
+</div>
+   
+
     <button 
         class="bg-blue-500 text-white px-4 py-2 rounded"
         onclick="adicionarProduto()"
@@ -24,5 +48,7 @@
         id="lista"
         class="flex flex-col gap-2"
     ></div>
+
+
 </body>
 </html>
